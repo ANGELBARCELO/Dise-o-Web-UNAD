@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>OVI Diseños Sitios Web</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <style type="text/css"></style>
+</head>
+
+<body>
+  <header>
+    <img src="haderUNAD.png" alt="some_text" style="width:width;height:height">
+    <h1>OVI Diseños de Sitios Web<br>Grupo 301122_48</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li class="desplegable">
+        <a class="btnDesplegable" href="#">Lecturas</a>
+      <div class="contenidoDesplegable">
+        <a href="lecturas1.html">GIT</a>
+        <a href="lecturas2.html">GITHUB</a>
+        <a href="lecturas3.html">Mockup's</a>
+        <a href="lecturas4.html">HTML5</a>
+        <a href="lecturas5.html">CSS3</a>
+      </div>
+      </li>
+      <li class="desplegable">
+        <a class="btnDesplegable" href="#">Multimedia</a>
+      <div class="contenidoDesplegable">
+        <a href="multimedia1.html">Curso de HTML5</a>
+        <a href="multimedia2.html">Curso de CSS3</a>
+      </div>
+      </li>
+      <li class="desplegable">
+        <a class="btnDesplegable" href="#">Actividades</a>
+      <div class="contenidoDesplegable">
+        <a href="actividades1.html">1.Ordenar Letras Git</a>
+        <a href="actividades2.html">2.Sopa de Letras</a>
+        <a href="actividades3.html">3.Crucigramas</a>
+      </div>
+      </li>
+      <li><a href="autores.html">Autores</a></li>
+    </ul>
+  </nav>
+
+  <section class="contenedor">
+    <h2>HTML5</h2>
+
+    <section class="principal">
+      <h2>Definición</h2>
+      <article>
+        HTML es un lenguaje de marcado que sirve para describir de una manera estructurada mediante etiquetas
+        el contenido de un documento. Esto tiene la gran ventaja de que podemos añadir con ello semántica (significado)
+        al documento que una máquina puede entender.
+      </article>
+      <h2>Estructura básica de un HTML</h2>
+      <article>
+        Para empezar una página en html5 lo primero de debemos realizar es definir el DOCTYPE y posteriormente asignar
+        el idioma en el que va a estar nuestra página, esto lo conseguimos con la etiqueta HTML y el atributo lang.
+      </article>
+      <img src="lecturas4-imagen1.png" width="600" height="200" align="center"/>
+      <h4><i>Imagen 4.1. HTML Parte 1. Creación propia.</i></h4>
+      <article>
+        De esta forma indicaremos que nuestra página está escrita en html5 y que el idioma de su contenido es español.
+        Luego va la etiqueta HEAD, en esta agregaremos la etiqueta meta para designar el codificado de nuestra página,
+        la cual pondremos UTF-8 esto con el fin de que nos acepte la "Ñ" y otros acentos del español.
+      </article>
+      <img src="lecturas4-imagen2.png" width="700" height="200" align="center"/>
+      <h4><i>Imagen 4.2. HTML Parte 2. Creación propia.</i></h4>
+      <article>
+        Dentro del head también va la etiqueta tittle, esta designa el título que saldrá en la pestaña superior del navegador
+        y la etiqueta link, mediante la cual asociamos nuestros estilos creados en css a nuestro documento html5. <br><br>Con esto
+        ya terminaríamos la parte no visible de nuestro sitio, lo siguiente es definir la etiqueta BODY, dentro de esta lo primero
+        es el HEADER, esta define la cabecera de nuestra página, por lo general aquí tenemos el logo y nombre de nuestro sitio o
+        en su defecto un baner.
+      </article>
+      <img src="lecturas4-imagen3.png" width="500" height="100" align="center"/>
+      <h4><i>Imagen 4.3. HTML Parte 3. Creación propia.</i></h4>
+      <article>
+        A continuación del header tenemos la etiqueta nav; la cual identifica la barra de navegación de nuestro sitio web, esta
+        contiene por lo general las etiquetas ul, lo y li para crear listas y así obtener menús desplegables.
+      </article>
+      <img src="lecturas4-imagen4.png" width="500" height="300" align="center"/>
+      <h4><i>Imagen 4.4. HTML Parte 4. Creación propia.</i></h4>
+      <article>
+        Luego tendríamos la etiqueta sectión, dentro de esta podremos definir etiquetas h, p, figure. Aunque lo ideal es definir
+        dentro de nuestra etiqueta section una etiqueta article o articulo y entro de esta empezar a trabajar todo nuestro contenido.
+      </article>
+      <img src="lecturas4-imagen5.png" width="500" height="300" align="center"/>
+      <h4><i>Imagen 4.5. HTML Parte 5. Creación propia.</i></h4>
+      <article>
+        Por ultimo tendríamos las etiquetas ASIDE y FOOTER, con aside crearemos una barra lateral y con el footer podremos crear el
+        pie de página de nuestro sitio web.
+      </article>
+      <img src="lecturas4-imagen6.png" width="400" height="300" align="center"/>
+      <h4><i>Imagen 4.6. HTML Parte 6. Creación propia.</i></h4>
+    </section>
+
+    <aside>
+      <h2>Twiter UNAD</h2>
+      <a width="300" height="200" class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </aside>
+  </section>
+
+  <footer>
+    <p>Universidad Nacional Abierta y a Distancia UNAD - Objeto Virtual Informativo, Elaborado por: Angel
+    Barcelo; Sergio Ochoa <br>Copyright &copy; 2019</p>
+  </footer>
+
+</body>
+</html>
